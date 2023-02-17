@@ -5,5 +5,4 @@ public record MessageListDTO(Long id, String name, String email, String phone, S
     public MessageListDTO(Message message) {
         this(message.getId(), message.getName(), message.getEmail(), message.getPhone(), message.getContent());
     }
-
 }
